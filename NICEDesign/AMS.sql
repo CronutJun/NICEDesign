@@ -388,7 +388,9 @@ COMMENT ON IN.T_RM_MSG (
     SVC_CD      IS '서비스코드',
     MAC_SER_NO  IS '기기일련번호',
     BRANCH_CD   IS '지점코드',
-    ORG_CD      IS '기관코드'
+    ORG_CD      IS '기관코드',
+    TRX_DATE    IS '거래일',
+    TRX_NO      IS '거래번호'
 );
 
 CREATE TABLE IN.T_RM_MSG_HIS
@@ -617,8 +619,9 @@ CREATE TABLE IN.T_RM_FILE
   UPDATE_UID varchar(10) NOT NULL,
   FILE_CL char NOT NULL,
   FILE_EXT varchar(5),
+  ORG_FILE_NM varchar(80) NOT NULL,
   FILE_PATH varchar(260) NOT NULL,
-  FILE_NAME varchar(260) NOT NULL,
+  FILE_NM varchar(80) NOT NULL,
   COMPRSS_YN varchar(1),
   MAC_NO varchar(12),
   TRX_DATE varchar(8),
@@ -646,8 +649,9 @@ COMMENT ON IN.T_RM_FILE (
     UPDATE_UID  IS '수정자',
     FILE_CL     IS '파일분류',
     FILE_EXT    IS '파일확장자명',
+    ORG_FILE_NM IS '원파일명',
     FILE_PATH   IS '파일경로',
-    FILE_NAME   IS '파일명',
+    FILE_NM     IS '파일명',
     COMPRSS_YN  IS '압축여부',
     MAC_NO      IS '기기번호',
     TRX_DATE    IS '거래일',
