@@ -764,7 +764,7 @@ CREATE TABLE IN.T_PM_PGM_VER
   INSERT_DATE timestamp NOT NULL,
   INSERT_UID varchar(10) NOT NULL,
   DEP_VER_ID varchar(60),
-  ASC_ID varchar(8),
+  SORT_ID varchar(8),
   MASTER_YN char(1) NOT NULL,
   CREATE_DATE varchar(8),
   FILE_SEQ varchar(7),
@@ -787,7 +787,7 @@ COMMENT ON IN.T_PM_PGM_VER (
     INSERT_DATE IS '등록일',
     INSERT_UID  IS '등록자',
     DEP_VER_ID  IS '종속버전ID',
-    ASC_ID      IS '오름차순ID',
+    SORT_ID     IS '순서정렬ID',
     MASTER_YN   IS '마스터여부',
     CREATE_DATE IS '생성일',
     FILE_SEQ    IS '파일순번'
