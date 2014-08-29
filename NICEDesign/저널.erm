@@ -12,7 +12,7 @@
 	<category_index>0</category_index>
 	<zoom>1.0</zoom>
 	<x>0</x>
-	<y>530</y>
+	<y>499</y>
 	<default_color>
 		<r>128</r>
 		<g>128</g>
@@ -41,8 +41,7 @@
 		<suspend_validator>false</suspend_validator>
 		<export_setting>
 			<category_name_to_export>All</category_name_to_export>
-			<html_output></html_output>
-			<ddl_output>D:\CronutWorks\eclipsePrjs\DBDesign\저널.sql</ddl_output>
+			<ddl_output>D:\CronutWorks\NICE\Works\꼬리치레\저널.sql</ddl_output>
 			<excel_output>D:\CronutWorks\eclipsePrjs\DBDesign\저널.xls</excel_output>
 			<excel_template>Default（English）</excel_template>
 			<image_output>D:\CronutWorks\eclipsePrjs\DBDesign\저널.png</image_output>
@@ -111,7 +110,7 @@
 			</connections>
 			<display>false</display>
 			<creation_date>2014-08-28 17:42:13</creation_date>
-			<updated_date>2014-08-28 23:36:31</updated_date>
+			<updated_date>2014-08-29 09:18:09</updated_date>
 			<model_property>
 				<name>Project Name</name>
 				<value></value>
