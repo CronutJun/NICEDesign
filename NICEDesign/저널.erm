@@ -11,7 +11,7 @@
 	</page_setting>
 	<category_index>0</category_index>
 	<zoom>1.0</zoom>
-	<x>125</x>
+	<x>150</x>
 	<y>0</y>
 	<default_color>
 		<r>128</r>
@@ -110,7 +110,7 @@
 			</connections>
 			<display>false</display>
 			<creation_date>2014-08-28 17:42:13</creation_date>
-			<updated_date>2014-09-02 10:14:04</updated_date>
+			<updated_date>2014-09-02 18:23:44</updated_date>
 			<model_property>
 				<name>Project Name</name>
 				<value></value>
@@ -292,7 +292,7 @@
 			<description>에러코드</description>
 			<logical_name>에러코드</logical_name>
 			<physical_name>ERR_CD</physical_name>
-			<type>decimal(p)</type>
+			<type>varchar(n)</type>
 		</word>
 		<word>
 			<id>10</id>
@@ -4056,7 +4056,7 @@
 					<unique_key_name></unique_key_name>
 					<logical_name></logical_name>
 					<physical_name></physical_name>
-					<type>decimal(p)</type>
+					<type>varchar(n)</type>
 					<constraint></constraint>
 					<default_value></default_value>
 					<auto_increment>false</auto_increment>

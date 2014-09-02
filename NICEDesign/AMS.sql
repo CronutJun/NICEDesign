@@ -895,7 +895,7 @@ CREATE TABLE IN.T_JM_TRX
   TRX_NOTE9_CNT decimal(3),
   TRX_NOTE10_CNT decimal(3),
   TRX_RSLT varchar(64),
-  ERR_CD decimal(4),
+  ERR_CD varchar(4),
   MD_TKN_YN varchar(1),
   ITM_TKN_YN varchar(1),
   TRX_IMG1_NM varchar(64),
