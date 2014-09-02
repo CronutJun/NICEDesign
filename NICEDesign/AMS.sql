@@ -865,8 +865,8 @@ COMMENT ON IN.T_PM_UPDS_SCHED (
 
 CREATE TABLE IN.T_JM_TRX
 (
-  TRX_DATE varchar(8) NOT NULL,
-  TRX_TIME varchar(6) NOT NULL,
+  MAC_TRX_DATE varchar(8) NOT NULL,
+  MAC_TRX_TIME varchar(6) NOT NULL,
   ORG_CD varchar(3) NOT NULL,
   BRANCH_CD varchar(8) NOT NULL,
   MAC_NO varchar(12) NOT NULL,
@@ -913,7 +913,7 @@ CREATE TABLE IN.T_JM_TRX
   ETC3 varchar(8),
   ETC4 varchar(8),
   ETC5 varchar(8),
-  PRIMARY KEY (TRX_DATE, TRX_TIME, ORG_CD, BRANCH_CD, MAC_NO)
+  PRIMARY KEY (MAC_TRX_DATE, MAC_TRX_TIME, ORG_CD, BRANCH_CD, MAC_NO)
 )
 IN INFO_AMS01
 INDEX IN INFO_AMSINDEX01;
@@ -928,8 +928,8 @@ ALTER TABLE IN.T_JM_TRX
 COMMENT ON TABLE IN.T_JM_TRX IS '저널거래원장';
 
 COMMENT ON IN.T_JM_TRX (
-    TRX_DATE       IS '거래일자',
-    TRX_TIME       IS '거래시간',
+    MAC_TRX_DATE   IS '기기거래일자',
+    MAC_TRX_TIME   IS '기기거래시간',
     ORG_CD         IS '기관코드',
     BRANCH_CD      IS '지점코드',
     MAC_NO         IS '기기번호',
